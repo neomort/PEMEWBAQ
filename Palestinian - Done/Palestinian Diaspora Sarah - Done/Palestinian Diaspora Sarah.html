@@ -7,15 +7,13 @@
 
 
 
-<div class="split left">
+
   <div class="centered">
     <img src="Palestinian Sarah 1.png" alt="Avatar woman">
     <img src="Palestinian Sarah 2.png" alt="Avatar woman">
 
   </div>
-</div>
 
-<div class="split right">
   <div class="centered">
 
     <h3>Artist: Firas Shehadeh </h3>
@@ -27,12 +25,15 @@
 
     <p> Sarah's Commentary - I came across this by complete chance as I was scrolling through my Instagram to find Palestinian artists and was so so thrilled because it encompasses such a specific element of my Palestinian experience which is being a Palestinian in Jordan and always having the chance to “see” Palestine from specific viewpoints and areas in the city because of geographically close it is (i mean, Jordan and Palestine were one country at some point), but not being able to go. How does one live with the idea that home is next door, that they can see it, but they cannot reach it? Firas plays with this idea in this video and asks questions *so* crucial to my existence – “What do the Palestinians usually do in Amman?” </p>
   </div>
-</div>
+
 
 <style type="text/css">
   
 
-p{text-align: left;}
+  p{
+  text-align: left;
+  font-size: 100%;
+}
 /* Split the screen in half */
 .split {
   height: 100%;
@@ -47,28 +48,29 @@ p{text-align: left;}
 /* Control the left side */
 .left {
   left: 0;
-  background-color: #FFD1DC;
+  background-color: #F5E1FD;
 }
 
 /* Control the right side */
 .right {
   right: 0;
-  background-color: #FFD1DC;
+  background-color: #F5E1FD;
+  padding-bottom: 0%;
+border-bottom: 1px;  
 }
 
 /* If you want the content centered horizontally and vertically */
 .centered {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  background-color: #F5E1FD;
+  padding: 5%;
+  position: relative;
   text-align: center;
 }
 
 /* Style the image inside the centered container, if needed */
 .centered img {
-  width: 150%;
-  /*border-radius: 50%;*/
+  width: 100%;
+  
 }
 
 

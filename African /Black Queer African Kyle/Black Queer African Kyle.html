@@ -7,15 +7,13 @@
 
 
 
-<div class="split left">
+
   <div class="centered">
   <iframe width="620" height="380"
       src="https://www.youtube.com/embed/KxDr1ue-lHc">
 </iframe>
   </div>
-</div>
 
-<div class="split right">
   <div class="centered">
 
     <h3>Artist: Jim Chuchu </h3>
@@ -33,11 +31,14 @@
     </h3>
  </p>
   </div>
-</div>
+
 
 <style type="text/css">
 	
-p{text-align: left;}
+  p{
+  text-align: left;
+  font-size: 100%;
+}
 /* Split the screen in half */
 .split {
   height: 100%;
@@ -52,27 +53,28 @@ p{text-align: left;}
 /* Control the left side */
 .left {
   left: 0;
-  background-color: 0;
+  background-color: #F5E1FD;
 }
 
 /* Control the right side */
 .right {
   right: 0;
-  background-color: 0;
+  background-color: #F5E1FD;
+  padding-bottom: 0%;
+border-bottom: 1px;  
 }
 
 /* If you want the content centered horizontally and vertically */
 .centered {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  background-color: #F5E1FD;
+  padding: 5%;
+  position: relative;
   text-align: center;
 }
 
 /* Style the image inside the centered container, if needed */
 .centered img {
-  width: 130%;
+  width: 100%;
   
 }
 
